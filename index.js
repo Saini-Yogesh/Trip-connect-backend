@@ -6,6 +6,7 @@ const User = require("./models/user");
 const signInAPI = require("./routes/signInAPI");
 const signUpAPI = require("./routes/signUpAPI");
 const checkEmailAPI = require("./routes/chekEmailAPI");
+const reviewAPI = require("./routes/reviewAPI");
 // const connectWithDb = require("./dbConnection");
 
 /*
@@ -49,6 +50,9 @@ app.post("/api/user/check-email", checkEmailAPI);
 
 // signUp user
 app.post("/api/user/signUp", signUpAPI);
+
+// review
+app.post("/api/review", reviewAPI);
 
 // for catch all route
 app.use((req, res) => {
