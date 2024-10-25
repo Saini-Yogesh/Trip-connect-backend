@@ -1,0 +1,16 @@
+{
+  "name": "trip-connect-backend",
+  "version": "1.0.0",
+  "description": "backend code of trip-connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yogesh Saini",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  }
+}
